@@ -14,22 +14,21 @@
              Page
 *******************************/
 
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
 html,
 body {
   height: 100%;
 }
 html {
-  font-size: 14px;
+  font-size: 12px;
 }
 body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
   min-width: 320px;
-  background: #ffffff;
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  background: #FFFFFF;
+  font-family: '微软雅黑', "Lato", 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 12px;
   line-height: 1.4285em;
   color: rgba(0, 0, 0, 0.87);
   font-smoothing: antialiased;
@@ -45,7 +44,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: '微软雅黑', "Lato", 'Helvetica Neue', Arial, Helvetica, sans-serif;
   line-height: 1.2857em;
   margin: calc(2rem -  0.14285em ) 0em 1rem;
   font-weight: bold;
@@ -103,7 +102,7 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #4183c4;
+  color: #4183C4;
   text-decoration: none;
 }
 a:hover {
@@ -119,15 +118,15 @@ a:hover {
 
 /* Site */
 ::-webkit-selection {
-  background-color: #cce2ff;
+  background-color: #CCE2FF;
   color: rgba(0, 0, 0, 0.87);
 }
 ::-moz-selection {
-  background-color: #cce2ff;
+  background-color: #CCE2FF;
   color: rgba(0, 0, 0, 0.87);
 }
 ::selection {
-  background-color: #cce2ff;
+  background-color: #CCE2FF;
   color: rgba(0, 0, 0, 0.87);
 }
 
