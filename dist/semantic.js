@@ -648,6 +648,7 @@ $.fn.form = function(parameters) {
               $(this)
                 .on(inputEvent + eventNamespace, module.event.field.change)
               ;
+              $(this).on('focus' + eventNamespace, module.event.field.focus);
             })
           ;
         },
@@ -782,6 +783,13 @@ $.fn.form = function(parameters) {
                 }
                 keyHeldDown = true;
               }
+            },
+            focus: function() {
+              $(this).closest($group).removeClass(className.error).addClass(className.success);
+              var $prompt = $(this).closest($group).children(selector.prompt);
+              $prompt.fadeOut(settings.duration, function() {
+                  $prompt.remove();
+              });
             },
             keyup: function() {
               keyHeldDown = false;
