@@ -1,0 +1,23 @@
+{
+  "name": "wlzc-semantic-ui",
+  "version": "1.0.0",
+  "description": "wlzc semantic ui.",
+  "main": "semantic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wlzc/semantic-ui.src.git"
+  },
+  "keywords": [
+    "wlzc",
+    "semantic-ui"
+  ],
+  "author": "wlzc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wlzc/semantic-ui.src/issues"
+  },
+  "homepage": "https://github.com/wlzc/semantic-ui.src#readme"
+}
